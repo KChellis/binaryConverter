@@ -68,9 +68,13 @@ $(document).ready(function(){
     var base = parseInt($("#base").val());
     if(baseCheck(input, base)) {
       var result = toDecimal(input, base);
-      $("#decimal").text(input + " in base " + base + " is " + result + " in decimal.");
+      $(".result").show();
+      $("#decimal").prepend("<li>" +input + " in base " + base + " is " + result + " in decimal.</li>");
     }else{
       alert("The number entered is not in the correct base");
     }
+  });
+  $("#clear").click(function(){
+    location.reload();
   });
 });

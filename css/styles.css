@@ -1,0 +1,20 @@
+body {
+  background-image: url(../img/background.jpg);
+  font-size: 20px;
+  font-weight: bold;
+}
+h1{
+  text-align: center;
+  background-color: #cdd2d8;
+  margin: 20px;
+}
+label {
+  font-size: 20px;
+  font-weight: bold;
+}
+button {
+  margin-top: 10px;
+}
+.result {
+  display: none;
+}
