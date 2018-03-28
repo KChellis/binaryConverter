@@ -10,9 +10,11 @@
   </head>
   <body>
     <div class="container">
-      <h1>Hexadecimal to Decimal Converter</h1>
+      <h1>Base 2-16 to Decimal Converter</h1>
       <form class="form1">
-        <label for="binary">Enter a hexadecimal number to convert to decimal:</label>
+        <label for="base">Enter the base between 2 and 16 you would like to use:</label>
+        <input id="base" type="number" name="base" class="form-control" required>
+        <label for="binary">Enter a number to convert to decimal (make sure it is in the base you chose):</label>
         <input id="binary" type="text" name="binary" class="form-control" required>
         <button type="submit" name="button">Beam Me Up!</button>
       </form>
