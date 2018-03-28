@@ -18,3 +18,12 @@ button {
 .result {
   display: none;
 }
+
+.wingdings {
+  display: none;
+  margin-top: 20px;
+}
+#wingding {
+  font-family: wingdings;
+  font-size: 30px;
+}

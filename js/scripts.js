@@ -69,6 +69,8 @@ $(document).ready(function(){
     if(baseCheck(input, base)) {
       var result = toDecimal(input, base);
       $(".result").show();
+      $("#wingding").text(input);
+      $(".wingdings").show();
       $("#decimal").prepend("<li>" +input + " in base " + base + " is " + result + " in decimal.</li>");
     }else{
       alert("The number entered is not in the correct base");
